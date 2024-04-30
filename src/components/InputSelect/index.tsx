@@ -71,7 +71,8 @@ export function InputSelect<TItem>({
                 "RampInputSelect--dropdown-container-opened": isOpen,
               })}
               {...getMenuProps()}
-              style={{ top: dropdownPosition.top, left: dropdownPosition.left }}
+              // style={{ top: dropdownPosition.top, left: dropdownPosition.left }}
+              // style={{ top: 0, left: 0 }}
             >
               {renderItems()}
             </div>
